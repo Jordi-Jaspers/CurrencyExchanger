@@ -3,6 +3,7 @@ from flaskext.mysql import MySQL
 from flask_wtf import FlaskForm
 from wtforms import SelectField
 from flask_sqlalchemy import SQLAlchemy
+
 import os
 
 # Create Flask Application
