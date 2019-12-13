@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Database Variables
 SECRET_KEY = os.urandom(32)
 
-DATABASE_HOST   = '127.0.0.1'
+DATABASE_HOST   = 'mysql'
 DATABASE_USER   = 'root'
 DATABASE_PASS    = 'root'
 DATABASE_PORT   = '3306'
@@ -59,4 +59,4 @@ def CurrencyExchanger():
 
 # Run The Application and restart if any changes have been made   
 if __name__ == "__main__":
-    app.run(debug=True, host='127.0.0.1')
+    app.run(debug=True, host='0.0.0.0')
