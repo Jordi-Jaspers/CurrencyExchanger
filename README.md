@@ -22,6 +22,7 @@ This is a 3-part project consisting of a REST & SOAP service made from different
 * Authentications and roles
 * Mysql database connecting and hosting
 * Different new python methods and imports
+* Troubleshoot with docker containers and SQLAlchemy
 * ...
   
 # TODO-List:  
@@ -42,15 +43,15 @@ This is a 3-part project consisting of a REST & SOAP service made from different
 -   Create a different selection form connected to this database! -> done!
 -   Use an conversion API from RapidAPI's -> done!
 -   Use a good Mark-up CSS Text-code -> done!
--   Connect Python service to Laravel -> Not Yet....
--   Connect Databases via Docker -> not Yet....
+-   Connect Python service to Laravel -> done!
+-   Connect Databases via Docker -> done!
 - ...
 #### Part 3:  C#-SOAP (Find idea...)
 -   Create an idea...
 - ...
 
 # Troubleshooting:   
--   Can't connect different databases through docker for other services like python-RESTFULL...
+-   Can't connect different databases through docker for other services like python-RESTFULL... --> change host from "127.0.0.1" to match the container name of the database
 
 # Project Information (Dutch):  
 1. Service Oriented Applicatie bouwen
