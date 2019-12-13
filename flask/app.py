@@ -35,7 +35,7 @@ app.config['MYSQL_PORT'] = DATABASE_PORT
 app.config['MYSQL_DB'] = DATABASE_DB
 
 # Configure the database
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URI
 mysql = SQLAlchemy(app)   
 
@@ -57,7 +57,6 @@ def CurrencyExchanger():
 
     return render_template('index.html', form = form)
 
-    
 # Run The Application and restart if any changes have been made   
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='127.0.0.1')
