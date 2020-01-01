@@ -1,4 +1,4 @@
-# Python-REST (Currencyexchanger)
+# Python-REST (Currencyexchanger) + WSDL (Calculator)
 
 ## Biography  
 **Authors:**
@@ -8,10 +8,10 @@ Jordi Jaspers [[Github](https://github.com/Jordi-Jaspers "Github Page"), [Linked
 14/11/2019  
 
 **Description:**
-This is a 3-part project consisting of a REST & SOAP service made from different coding languages. This excercise is trying to give us knowledge about different methods of building a cloud-service. Part 2 consists of a Python REST. In this part of the project got in touch with PHP, HTML, CSS, JS, Python programming. The main objective is to host every created service on a Docker-container.
+This is a 3-part project consisting of a REST & SOAP service made from different coding languages. This excercise is trying to give us knowledge about different methods of building a cloud-service. Part 2 consists of a Python REST. In this part of the project got in touch with PHP, HTML, CSS, JS, Python programming. Part 3 is about requesting WSDL-services for information via C# and implemting it on a website. The main objective is to host every created service on a Docker-container.
 
 ## What We Learned
- *  Command-line programming
+ * Command-line programming
  *  XAMPP DataBases
  * Virtual Enironments in python
  * Python REST API with FLASK
@@ -24,9 +24,11 @@ This is a 3-part project consisting of a REST & SOAP service made from different
  * Mysql database connecting and hosting
  * Different new python methods and imports
  * Troubleshoot with docker containers and SQLAlchemy
+ * Basic C# for SOAP service
+ * XML to describe the WSDL files
+ * Deploying in Windows VS studio
  * ...
   
-
 ## TODO-List:  
 #### Part 1:  Laravel (BasicWebsite)
 -   Build a basic central webapp in Laravel -> done
@@ -48,17 +50,38 @@ This is a 3-part project consisting of a REST & SOAP service made from different
 -   Connect Python service to Laravel -> done!
 -   Connect Databases via Docker -> done!
 - ...
-#### Part 3:  C#-SOAP (Find idea...)
--   Create an idea...
-- ...
+
+#### Part 3:  C#-SOAP (Calculator WSDL)
+-   Used service as Insperation: <http://www.dneonline.com/calculator.asmx?wsdl>
+-   Created own C# calculator services -> done!
+-   Consumed in C3 webservice as test -> done!
+-   Consuming the service in a Java project (Bonuspoints: Use Other service) -> not yet!
+-   Dockerize the part 3 (Bonuspoint: everything Consistent in Docker) -> Done!
+-   Deploy everything in AWS Services -> not yet!
 
 ## Troubleshooting:   
 -   Can't connect different databases through docker for other services like python-RESTFULL... --> change host from "127.0.0.1" to match the container name of the database
 
+**To Connect to the Localhost on the windows machine:**
+```
+Ipconfig
+
+Ethernet adapter Ethernet:
+
+    Connection-specific DNS Suffix  . : localdomain
+    IPv6 Address. . . . . . . . . . . : 
+    Temporary IPv6 Address. . . . . . : 
+    Link-local IPv6 Address . . . . . : 
+    IPv4 Address. . . . . . . . . . . : USE THIS IP-ADRESS
+    Subnet Mask . . . . . . . . . . . : 
+    Default Gateway . . . . . . . . . : 
+```
+Then your URL will be <http://YOUR_GATEWAY_IP:PORT/APPLICATION>
+
 ## Project Information (Dutch):  
 1. Service Oriented Applicatie bouwen
     - Services bouwen
-        * REST	
+        * REST    
             Laravel
             Python – Flask RESTful
         * SOAP
@@ -107,14 +130,19 @@ The grading system will be writen in dutch, because it is a copy-paste of the gi
 |geen SOAP-service oproepen                                   |          2      |
 
 ## References:  
- * POSTGREPL: https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb
- * Python REST: https://www.codementor.io/dongido/how-to-build-restful-apis-with-python-and-flask-fh5x7zjrx
- * Python REST: https://www.youtube.com/channel/UCK8YsKv4-N6ItZfzEyKlI6A
- * microservices: https://www.youtube.com/watch?v=PY9xSykods4
- * SOA vs microservices: https://www.youtube.com/watch?v=EpyPFnjue38
- * REST vs SOAP: https://www.youtube.com/watch?v=bPNfu0IZhoE
- * REST API Examples: https://www.youtube.com/watch?v=7YcW25PHnAA
- * Docker vs Laravel: https://laradock.io/documentation/
- * Everything about Laravel: https://laravel.com/docs/5.7/verification
- * Troubleshooting: https://stackoverflow.com/
-
+ * POSTGREPL: <https://www.codementor.io/engineerapart/getting-started-with-postgresql-on-mac-osx-are8jcopb>
+ * Python REST: <https://www.codementor.io/dongido/how-to-build-restful-apis-with-python-and-flask-fh5x7zjrx>
+ * Python REST: <https://www.youtube.com/channel/UCK8YsKv4-N6ItZfzEyKlI6A>
+ * microservices: <https://www.youtube.com/watch?v=PY9xSykods4>
+ * SOA vs microservices: <https://www.youtube.com/watch?v=EpyPFnjue38>
+ * REST vs SOAP: <https://www.youtube.com/watch?v=bPNfu0IZhoE>
+ * REST API Examples: <https://www.youtube.com/watch?v=7YcW25PHnAA>
+ * Docker vs Laravel: <https://laradock.io/documentation/>
+ * Everything about Laravel: <https://laravel.com/docs/5.7/verification>
+ * Deploying WCF: <https://www.chriswirz.com/software/wcf-docker-service>
+ * Laradock on AWS: <https://github.com/laradock/laradock/issues/244>
+ * Create SOAP Services: <https://www.youtube.com/watch?v=uBwHedD5xx0&t=437s>
+ * NETCore & mac: <https://www.codeproject.com/Articles/1223518/ASP-NET-Core-2-0-and-Docker-on-MacOS>
+ * Windows Server on AWS: <https://www.youtube.com/watch?v=5FepK5pV39c>
+ * Accessing localhost on VM: <https://medium.com/@urubuz/accessing-localhost-in-mac-from-windows-vm-in-virtualbox-312a3de6fedb>
+ * Troubleshooting: <https://stackoverflow.com/>
