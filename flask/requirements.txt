@@ -7,7 +7,7 @@ cheroot==8.2.1
 CherryPy==18.4.0
 Click==7.0
 dominate==2.4.0
-Flask==0.12.2
+Flask==1.0
 Flask-Bootstrap==3.3.7.1
 flask-marshmallow==0.8.0
 Flask-Migrate==2.1.1
