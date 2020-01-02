@@ -10,6 +10,9 @@ Jordi Jaspers [[Github](https://github.com/Jordi-Jaspers "Github Page"), [Linked
 **Description:**
 This is a 3-part project consisting of a REST & SOAP service made from different coding languages. This excercise is trying to give us knowledge about different methods of building a cloud-service. Part 2 consists of a Python REST. In this part of the project got in touch with PHP, HTML, CSS, JS, Python programming. Part 3 is about requesting WSDL-services for information via C# and implemting it on a website. The main objective is to host every created service on a Docker-container.
 
+**Documentation:**  
+The documentation of the app is located as an html file within the documentation folder or referenced in the source code itself.
+
 ## What We Learned
  * Command-line programming
  *  XAMPP DataBases

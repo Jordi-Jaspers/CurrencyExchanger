@@ -2,6 +2,9 @@ let selectFrom = document.getElementById('currencyFrom');
 let selectTo = document.getElementById('currencyTo');
 let selectAmount = document.getElementById('amount');
 
+/**
+ * Watches if there is a change in the different input boxes and updates everything.
+ */
 function watchValues(){
     var FORMAT = "json";
     var FROM = selectFrom.options[selectFrom.selectedIndex].value;
