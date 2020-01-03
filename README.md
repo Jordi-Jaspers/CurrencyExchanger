@@ -144,8 +144,10 @@ The grading system will be writen in dutch, because it is a copy-paste of the gi
  * Everything about Laravel: <https://laravel.com/docs/5.7/verification>
  * Deploying WCF: <https://www.chriswirz.com/software/wcf-docker-service>
  * Laradock on AWS: <https://github.com/laradock/laradock/issues/244>
+ * Multicontainer docker on AWS: <https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-laravel-tutorial.html>
  * Create SOAP Services: <https://www.youtube.com/watch?v=uBwHedD5xx0&t=437s>
  * NETCore & mac: <https://www.codeproject.com/Articles/1223518/ASP-NET-Core-2-0-and-Docker-on-MacOS>
  * Windows Server on AWS: <https://www.youtube.com/watch?v=5FepK5pV39c>
  * Accessing localhost on VM: <https://medium.com/@urubuz/accessing-localhost-in-mac-from-windows-vm-in-virtualbox-312a3de6fedb>
  * Troubleshooting: <https://stackoverflow.com/>
+
